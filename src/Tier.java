@@ -1,4 +1,4 @@
-public class Tier {
+public abstract class Tier {
 
     //Attribute
     String name;
@@ -8,10 +8,10 @@ public class Tier {
     String lebensRaum;
     String essen;
     int alter;
-    String rasse;
+    String art;
 
     //Konstruktor
-    public Tier(String name,String geschlecht, int gewicht,int größe,String lebensRaum,String essen, int alter, String rasse){
+    public Tier(String name,String geschlecht, int gewicht,int größe,String lebensRaum,String essen, int alter, String art){
         this.name = name;
         this.gewicht = gewicht;
         this.größe = größe;
@@ -19,12 +19,12 @@ public class Tier {
         this.essen = essen;
         this.alter = alter;
         this.geschlecht = geschlecht;
-        this.rasse = rasse;
+        this.art = art;
     }
 
     //Methode
     public void name(){
-        System.out.println("Der Name des " + rasse + " ist " + name);
+        System.out.println("Der Name des " + art + " ist " + name);
     }
     public void essen(){
         System.out.println("Die Ernährung ist?");
