@@ -12,6 +12,22 @@ public class SchaferHund extends Hund{
         this.linie = linie;
 
     }
+
+    public String getFell() {
+        return fell;
+    }
+
+    public void setFell(String fell) {
+        this.fell = fell;
+    }
+
+    public String getLinie() {
+        return linie;
+    }
+
+    public void setLinie(String linie) {
+        this.linie = linie;
+    }
 }
 
 

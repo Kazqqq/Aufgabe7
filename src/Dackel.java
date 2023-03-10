@@ -9,4 +9,20 @@ public class Dackel extends Hund{
         this.ursprung = ursprung;
 
     }
+
+    public String getFell() {
+        return fell;
+    }
+
+    public void setFell(String fell) {
+        this.fell = fell;
+    }
+
+    public String getUrsprung() {
+        return ursprung;
+    }
+
+    public void setUrsprung(String ursprung) {
+        this.ursprung = ursprung;
+    }
 }
