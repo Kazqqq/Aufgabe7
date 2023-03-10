@@ -1,6 +1,6 @@
 
 
-public class Hund extends Säugetier {
+public class Hund extends Saeugetier {
 
     int zähne;
 

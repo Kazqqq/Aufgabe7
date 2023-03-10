@@ -4,17 +4,17 @@ public abstract class Tier {
     String name;
     String geschlecht;
     int gewicht;
-    int größe;
+    int groesse;
     String lebensRaum;
     String essen;
     int alter;
     String art;
 
     //Konstruktor
-    public Tier(String name,String geschlecht, int gewicht,int größe,String lebensRaum,String essen, int alter, String art){
+    public Tier(String name, String geschlecht, int gewicht, int groesse, String lebensRaum, String essen, int alter, String art){
         this.name = name;
         this.gewicht = gewicht;
-        this.größe = größe;
+        this.groesse = groesse;
         this.lebensRaum = lebensRaum;
         this.essen = essen;
         this.alter = alter;

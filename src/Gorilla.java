@@ -3,27 +3,27 @@ public class Gorilla extends Affe {
     private String sozialVerhalten;
     private boolean bedrohteArt;
 
-    public Gorilla(String name, String geschlecht, int gewicht, int größe, String lebensRaum, String essen, int alter, String art, String farbe, boolean menschenaffe, String sozialVerhalten, boolean bedrohteArt) {
-        super(name, geschlecht, gewicht, größe, lebensRaum, essen, alter, art, farbe, menschenaffe);
+    public Gorilla(String name, String geschlecht, int gewicht, int groesse, String lebensRaum, String essen, int alter, String art, String farbe, boolean menschenaffe, String sozialVerhalten, boolean bedrohteArt) {
+        super(name, geschlecht, gewicht, groesse, lebensRaum, essen, alter, art, farbe, menschenaffe);
         this.sozialVerhalten = sozialVerhalten;
         this.bedrohteArt = bedrohteArt;
     }
 
+    // Setter
     public boolean isBedrohteArt() {
         return bedrohteArt;
     }
 
-    public Gorilla setBedrohteArt(boolean bedrohteArt) {
+    public void setBedrohteArt(boolean bedrohteArt) {
         this.bedrohteArt = bedrohteArt;
-        return this;
     }
 
+    // Getter
     public String getSozialVerhalten() {
         return sozialVerhalten;
     }
 
-    public Gorilla setSozialVerhalten(String sozialVerhalten) {
+    public void setSozialVerhalten(String sozialVerhalten) {
         this.sozialVerhalten = sozialVerhalten;
-        return this;
     }
 }
