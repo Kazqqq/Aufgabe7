@@ -1,5 +1,5 @@
 public interface Pflanzenfresser {
 
-    Pflanze frisstPflanze();
+     void frisstPflanze();
 
 }

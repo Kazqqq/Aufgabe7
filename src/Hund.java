@@ -1,6 +1,6 @@
 
 
-public class Hund extends Saeugetier {
+public class Hund extends Saeugetier implements Allesfresser {
 
     int zähne;
 
@@ -24,4 +24,14 @@ public class Hund extends Saeugetier {
         this.zähne = zähne;
     }
 
+
+    @Override
+    public void frisstPflanze() {
+
+    }
+
+    @Override
+    public void frisstFleisch() {
+
+    }
 }

@@ -1,4 +1,4 @@
 public interface Fleischfresser {
 
-    Fleisch frisstFleisch();
+   void frisstFleisch();
 }
