@@ -2,12 +2,12 @@
 
 public class Hund extends Saeugetier implements Allesfresser {
 
-    int zähne;
+    int zaehne;
 
 
-    public Hund(String name, String geschlecht, int gewicht, int größe, String lebensRaum, String essen, int alter, String art, int zähne) {
-        super(name, geschlecht, gewicht, größe, lebensRaum, essen, alter, art);
-        this.zähne = zähne;
+    public Hund(String name, String geschlecht, int gewicht, int groesse, String lebensRaum, String essen, int alter, String art, int zaehne) {
+        super(name, geschlecht, gewicht, groesse, lebensRaum, essen, alter, art);
+        this.zaehne = zaehne;
 
     }
 
@@ -15,12 +15,12 @@ public class Hund extends Saeugetier implements Allesfresser {
 
     }
 
-    public int getZähne() {
-        return zähne;
+    public int getZaehne() {
+        return zaehne;
     }
 
-    public void setZähne(int zähne) {
-        this.zähne = zähne;
+    public void setZaehne(int zaehne) {
+        this.zaehne = zaehne;
     }
 
     @Override
