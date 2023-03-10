@@ -1,5 +1,6 @@
 public class Flugzeug {
 
+    //Attribute
     String airline;
     String modell;
     int baujahr;
@@ -9,6 +10,7 @@ public class Flugzeug {
     int triebwerkAnzahl;
     int gewicht;
 
+    //Konstruktor
     public Flugzeug(String marke, String modell, int baujahr, int leistungPS, int kilometer, int passiegierAnzahl, int triebwerkAnzahl, int gewicht) {
         this.airline = marke;
         this.modell = modell;
@@ -20,6 +22,8 @@ public class Flugzeug {
         this.gewicht = gewicht;
     }
 
+
+    //Methode
     public void beschleunigen() {
         System.out.println(modell + " beschleunigt mit bis zu " + leistungPS + " PS");
     }

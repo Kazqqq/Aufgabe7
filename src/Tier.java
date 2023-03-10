@@ -1,5 +1,6 @@
 public class Tier {
 
+    //Attribute
     String name;
     String geschlecht;
     int gewicht;
@@ -9,6 +10,7 @@ public class Tier {
     int alter;
     String rasse;
 
+    //Konstruktor
     public Tier(String name,String geschlecht, int gewicht,int größe,String lebensRaum,String essen, int alter, String rasse){
         this.name = name;
         this.gewicht = gewicht;
@@ -20,6 +22,7 @@ public class Tier {
         this.rasse = rasse;
     }
 
+    //Methode
     public void name(){
         System.out.println("Der Name des " + rasse + " ist " + name);
     }

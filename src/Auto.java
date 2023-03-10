@@ -1,5 +1,6 @@
 public class Auto {
 
+    //Attribute
     String marke;
     String modell;
     String autoArt;
@@ -10,6 +11,13 @@ public class Auto {
     int kilometer;
     boolean neuwagen;
 
+    //Statische Felder
+    public static int anzahlAutos = 5;
+    public static int avgPS = 120;
+    public static String kraftArt = "Benzin";
+
+
+    // Konstruktor
     public Auto(String marke, String modell, String autoArt, String kraftstoffArt, int baujahr, String farbe, int leistungPS, int kilometer, boolean neuwagen) {
         this.marke = marke;
         this.modell = modell;
@@ -21,6 +29,7 @@ public class Auto {
         this.kilometer = kilometer;
         this.neuwagen = neuwagen;
     }
+    //Methoden
     public void gefahren() {
         System.out.println("Der " + marke + " ist kein Neuwagen mehr.");
         neuwagen = false;
